@@ -1,7 +1,7 @@
-export const DiscountAdvise = () => {
+export const DiscountAdvise = ({text}) => {
     return ( 
         <div className="flex items-center text-white bg-sky-400 h-14 justify-center p-4">
-            ¡Solo por hoy 10% de descuento en .... rosados!
+            {text}
         </div>
     )
 }
